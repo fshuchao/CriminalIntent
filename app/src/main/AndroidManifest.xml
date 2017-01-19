@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.fanshuchao.example.criminalintent">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> //申请外部读取权限
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="false"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
